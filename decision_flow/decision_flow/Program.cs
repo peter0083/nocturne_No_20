@@ -21,6 +21,17 @@ namespace decision_flow
                 Console.WriteLine(winMessage);
             }
 
+            else if (userDoorPick == "2" || userDoorPick == "3")
+            {
+                string goatMessage = "You got a goat!";
+                Console.WriteLine(goatMessage);
+            }
+            else
+            {
+                string inputErrorMessage = "Only input 1, 2, or 3 can be accepted";
+                Console.WriteLine(inputErrorMessage);
+            }
+
             Console.ReadLine();
         }
     }
