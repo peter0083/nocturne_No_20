@@ -29,8 +29,10 @@ namespace variables
 
             Console.Write("Type your user pin here: ");
 
-            string myUserPin;
-            myUserPin = Console.ReadLine();
+            //string myUserPin;
+            //myUserPin = Console.ReadLine();
+
+            string myUserPin = Console.ReadLine();
 
             Console.WriteLine("User ID " + myUserID + " is now paired with " + myUserPin);
             Console.ReadLine();
