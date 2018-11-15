@@ -43,7 +43,7 @@ namespace decision_flow
 
             string message = (userDoorPick == "1") ? "You won a new car!" : "You got a goat! You lose.";
 
-            Console.Write(message);
+            Console.Write("You picked door {0}" + Environment.NewLine + "... {1}", userDoorPick, message);
             Console.ReadLine();
         }
     }
