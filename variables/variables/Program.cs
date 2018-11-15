@@ -10,6 +10,7 @@ namespace variables
     {
         static void Main(string[] args)
         {
+            /*
             int x;
             int y;
 
@@ -18,7 +19,10 @@ namespace variables
 
             Console.WriteLine(y);
             Console.ReadLine();
+            */
 
+            Console.WriteLine("Enter username:");
+            Console.ReadLine();
         }
     }
 }
