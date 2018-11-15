@@ -10,7 +10,7 @@ namespace decision_flow
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Initiating Monty Hall Simulator...");
             Console.Write("Choose door 1, 2, or 3: ");
 
@@ -34,8 +34,9 @@ namespace decision_flow
             }
 
             Console.ReadLine();
-            */
+            
 
+            /*
             Console.WriteLine("Initiating Monty Hall Simulator...");
             Console.Write("Choose door 1, 2, or 3: ");
             
@@ -45,6 +46,7 @@ namespace decision_flow
 
             Console.Write("You picked door {0}" + Environment.NewLine + "... {1}", userDoorPick, message);
             Console.ReadLine();
+            */
         }
     }
 }
