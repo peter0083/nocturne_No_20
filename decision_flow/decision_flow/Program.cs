@@ -23,7 +23,7 @@ namespace decision_flow
 
             else if (userDoorPick == "2" || userDoorPick == "3")
             {
-                string goatMessage = "You got a goat!";
+                string goatMessage = "You got a goat! You lose :(";
                 Console.WriteLine(goatMessage);
             }
             else
