@@ -20,9 +20,9 @@ namespace ForLoop
                 }
             }
 
-            for (int i = 0; i < length; i++)
+            for (int index = 0; index < 15; index++)
             {
-
+                Console.WriteLine("Hello world" + index);
             }
 
             Console.ReadLine();
