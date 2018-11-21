@@ -34,12 +34,25 @@ namespace learnArray
             Console.ReadLine();
             */
 
+            /*
             foreach (string name in testArray)
             {
                 Console.WriteLine(name);
             }
             Console.ReadLine();
+            */
 
+            string zig = "You can get what you want out of life" +
+                " if you help enough other people to get what they want";
+
+            char[] charArray = zig.ToCharArray();
+            Array.Reverse(charArray);
+
+            foreach (char indexChar in charArray)
+            {
+                Console.Write(indexChar);
+            }
+            Console.ReadLine();
         }
     }
 }
