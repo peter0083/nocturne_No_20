@@ -10,6 +10,7 @@ namespace learnArray
     {
         static void Main(string[] args)
         {
+            /*
             int[] testArray = new int[5];
 
             testArray[0] = 4;
@@ -21,6 +22,19 @@ namespace learnArray
             Console.WriteLine(testArray[1]);
             Console.WriteLine(testArray.Length);
             Console.ReadLine();
+            */
+
+            /*
+            string[] testArray = new string[] { "James", "Paul", "Chris", "Larry" };
+
+            for (int i = 0; i < testArray.Length; i++)
+            {
+                Console.WriteLine(testArray[i]);
+            }
+            Console.ReadLine();
+            */
+
+
         }
     }
 }
