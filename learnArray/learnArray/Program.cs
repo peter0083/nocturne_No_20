@@ -24,9 +24,9 @@ namespace learnArray
             Console.ReadLine();
             */
 
-            /*
             string[] testArray = new string[] { "James", "Paul", "Chris", "Larry" };
 
+            /*
             for (int i = 0; i < testArray.Length; i++)
             {
                 Console.WriteLine(testArray[i]);
@@ -34,6 +34,11 @@ namespace learnArray
             Console.ReadLine();
             */
 
+            foreach (string name in testArray)
+            {
+                Console.WriteLine(name);
+            }
+            Console.ReadLine();
 
         }
     }
